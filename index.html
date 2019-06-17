@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hebrew">
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<title>שיעור 1</title>
+		<style>
+			div{
+			text-align: center;
+			}
+			#log{
+				border: 1px solid black;
+				transition: all 0.8s ease-in-out;
+			}
+			.mutant{
+				border-radius: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-med-4">
+					<input type="text" id="num1" /><br>
+					<input type="text" id="num2" />
+				</div>
+				<div class="col-med-4">
+					<button id="btn1">+</button>
+					<button id="btn2">-</button><br>
+					<button id="btn3">×</button>
+					<button id="btn4">/</button>
+				</div>
+				<div class="col-med-4">
+				<div id="score"></div>
+				</div>
+			</div>
+	
+			<div id="log">
+		</div>
+		<script src="js.js"></script>
+	</body>
+</html>
